@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 384" width="1920" height="384">
+  <defs>
+    <radialGradient id="bgR" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#2a1a08"/>
+      <stop offset="100%" stop-color="#140d04"/>
+    </radialGradient>
+    <linearGradient id="hexR" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fcd34d"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="hiveR" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffe9ae"/>
+      <stop offset="100%" stop-color="#c2760b"/>
+    </linearGradient>
+    <radialGradient id="glowR" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fde68a" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#fde68a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="combR" width="64" height="55.4" patternUnits="userSpaceOnUse" patternTransform="translate(0,0)">
+      <polygon points="32,2 60,18 60,46 32,62 4,46 4,18" fill="none" stroke="#fcd34d" stroke-width="1" opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <!-- background, full bleed -->
+  <rect width="1920" height="384" fill="url(#bgR)"/>
+  <rect width="1920" height="384" fill="url(#combR)"/>
+
+  <!-- centered lockup: everything that matters sits inside this safe zone,
+       so a narrower mobile crop of the banner still keeps icon + title legible -->
+  <g transform="translate(610,12)">
+    <polygon points="160,14 302,98 302,262 160,346 18,262 18,98"
+             fill="none" stroke="url(#hexR)" stroke-width="10" stroke-linejoin="round"/>
+    <circle cx="160" cy="200" r="100" fill="url(#glowR)"/>
+
+    <g>
+      <path d="M 160 128
+               C 196 128 212 156 212 174
+               L 212 214
+               C 212 233 188 244 160 244
+               C 132 244 108 233 108 214
+               L 108 174
+               C 108 156 124 128 160 128 Z"
+            fill="url(#hiveR)" stroke="#8a5308" stroke-width="2"/>
+      <path d="M 110 156 Q 160 170 210 156" fill="none" stroke="#8a5308" stroke-width="2.3" opacity="0.55"/>
+      <path d="M 108 182 Q 160 198 212 182" fill="none" stroke="#8a5308" stroke-width="2.3" opacity="0.55"/>
+      <path d="M 108 208 Q 160 222 212 208" fill="none" stroke="#8a5308" stroke-width="2.3" opacity="0.55"/>
+      <path d="M 112 231 Q 160 242 208 231" fill="none" stroke="#8a5308" stroke-width="2.3" opacity="0.45"/>
+      <ellipse cx="160" cy="236" rx="13" ry="8.5" fill="#3a2410"/>
+      <path d="M 134 140 C 122 151 115 166 114 178" fill="none" stroke="#fff6df" stroke-width="4.5" stroke-linecap="round" opacity="0.55"/>
+    </g>
+
+    <g transform="translate(160,90)">
+      <ellipse cx="-18" cy="-4" rx="17" ry="11" fill="#fff7e6" opacity="0.88" transform="rotate(-18 -18 -4)"/>
+      <ellipse cx="18" cy="-4" rx="17" ry="11" fill="#fff7e6" opacity="0.88" transform="rotate(18 18 -4)"/>
+      <ellipse cx="0" cy="6" rx="16" ry="12" fill="#2a1a08"/>
+      <rect x="-16" y="-1" width="32" height="5" fill="#fcd34d"/>
+      <rect x="-16" y="9" width="32" height="5" fill="#fcd34d"/>
+      <circle cx="0" cy="-12" r="8" fill="#2a1a08"/>
+      <circle cx="-3" cy="-13" r="1.5" fill="#fff7e6"/>
+      <circle cx="3" cy="-13" r="1.5" fill="#fff7e6"/>
+      <path d="M -4 -19 Q -9 -25 -12 -22" stroke="#2a1a08" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <path d="M 4 -19 Q 9 -25 12 -22" stroke="#2a1a08" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <text x="950" y="190" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="92" fill="#fcd34d">Hive Colony</text>
+  <text x="952" y="232" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="2" fill="#caa46a">A SHARED COLONY. SURVIVE TOGETHER.</text>
+</svg>
