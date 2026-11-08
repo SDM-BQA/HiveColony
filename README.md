@@ -1,10 +1,16 @@
+<p align="center">
+  <img src="branding/banner-1920x384.png" alt="Hive Colony — a shared colony. One subreddit. Survive together." width="100%">
+</p>
+
 # 🐝 Hive Colony
 
 **A community survival simulation for Reddit.** The whole subreddit shares one colony — every member is a colonist, and the community has to work together to keep it alive, grow it, and build its wonder before someone lets it starve.
 
 Built on [Reddit's Devvit platform](https://developers.reddit.com/), so it runs right inside a Reddit post. No app to install, no account but Reddit's own.
 
-![status](https://img.shields.io/badge/status-in%20development-orange) ![platform](https://img.shields.io/badge/platform-Reddit%20Devvit-ff4500) ![stack](https://img.shields.io/badge/stack-React%20%2B%20TypeScript%20%2B%20Hono-blue)
+**🟢 Live now on [r/HiveColony](https://reddit.com/r/HiveColony)** — approved and public on Reddit.
+
+![status](https://img.shields.io/badge/status-live-brightgreen) ![platform](https://img.shields.io/badge/platform-Reddit%20Devvit-ff4500) ![stack](https://img.shields.io/badge/stack-React%20%2B%20TypeScript%20%2B%20Hono-blue)
 
 ---
 
